@@ -1,0 +1,73 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.container {
+/* text-align: center; */
+/* margin: 10px; */
+/* padding: 0 10%; */
+/* border: 1px solid black; */
+width: 500px;
+padding: 2%;
+margin: 50px auto;
+border: 2px solid black;
+border-radius: 20px;
+background-color: rgb(70, 135, 165);
+/* color: black; */
+}
+
+.form {
+padding: 5%;
+}
+
+h1 {
+    margin: 10px;
+text-align: center;
+text-transform: uppercase;
+/* border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+background-color: black; */
+}
+h1:hover{
+    text-decoration: underline;
+}
+
+label {
+font-size: 20px;
+font-weight: bold;
+}
+
+input {
+padding: 1%;
+/* border-radius: 5px; */
+}
+input:focus{
+    outline: none;
+}
+
+button {
+/* margin: 0 auto; */
+/* text-align: center; */
+font-weight: bold;
+padding: 3%;
+border-radius: 20px;
+border: 1px solid black;
+box-shadow: 4px 4px 6px;
+font-size: 16px;
+/* justify-content: center; */
+margin-left: 150px;
+margin-top: 10px;
+}
+.f-grp{
+    display: flex;
+    justify-content: space-between;
+}
+#cal h4{
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 10px;
+    color: black;
+    margin: 1rem;
+}
